@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+    font-size: 20px;
+    font-weight: 500;
+    height: 100%;
+}
+#btn-up {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background: #888;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding: 8px;
+    display: none;
+}
+#btn-up:hover {
+    transition: .2s;
+    background: #999;
+    box-shadow: 0 0 10px 10px #333;
+}
+.wrapper {
+    width: 300px;
+    height: auto;
+    padding: 40px;
+    box-sizing: content-box;
+    margin: 100px auto 70px;
+    background: #777;
+    box-shadow: 0 15px 20px 10px #333;
+    border-radius: 10px;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+h4 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+form {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+}
+form div span {
+    margin: 3px auto;
+}
+form input, form select {
+    box-sizing: border-box;
+    width: 140px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    background: rgb(206, 206, 206);
+}
+.wrapper p {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.wrapper p::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgb(206, 206, 206);
+}
+#btn:hover {
+    transition: .2s;
+    background: rgb(221, 221, 221);
+    box-shadow: 0 0 5px 3px #555;
+}
